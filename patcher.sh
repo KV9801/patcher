@@ -26,7 +26,6 @@ patch -d build					-p1 -s -N --no-backup-if-mismatch < $SULTAN/build0.patch
 patch -d frameworks/av				-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-av0.patch
 patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-base0.patch
 patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-base1.patch
-patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-base2.patch
 patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-base3.patch
 patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SULTAN/frameworks-base4.patch
 patch -d hardware/qcom/display-caf/msm8974	-p1 -s -N --no-backup-if-mismatch < $SULTAN/hardware-qcom-display-caf-msm89740.patch
